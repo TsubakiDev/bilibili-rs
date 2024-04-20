@@ -1,0 +1,21 @@
+[package]
+name = "bilibili-rs"
+version = "0.1.0"
+description = "BiliBili API Rust Implementation"
+authors = ["TsubakiDev <i@tsubakidev.cc>"]
+license = "Apache 2.0"
+license-file = "./LICENSE"
+repository = "https://github.com/TsubakiDev/bilibili-rs"
+edition = "2021"
+keywords = ["bilibili"]
+
+categories = ["api-bindings"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+protobuf = "3.4.0"
+json = "0.12.4"
+
+[[bin]]
+name = "bilibili-api"
